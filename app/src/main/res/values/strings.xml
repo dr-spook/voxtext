@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoxtText</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Transformez l\'audio en texte</string>
+    <string name="onboarding_welcome_subtitle">Recevez un vocal, partagez-le, lisez-le. Simple, rapide et confidentiel.</string>
+    <string name="onboarding_welcome_cta">Continuer</string>
+
+    <string name="onboarding_permission_title">Accès à vos fichiers</string>
+    <string name="onboarding_permission_subtitle">Pour transcrire vos vocaux et vidéos, nous avons besoin d\'accéder à vos fichiers audio et vidéo.</string>
+    <string name="onboarding_permission_note">🔒 Rien ne quitte votre téléphone.</string>
+    <string name="onboarding_permission_cta">Autoriser</string>
+    <string name="onboarding_permission_skip">Plus tard</string>
+
+    <string name="onboarding_dict_title">Installation du dictionnaire</string>
+    <string name="onboarding_dict_subtitle">Téléchargement du dictionnaire français pour le mode hors-connexion (75 Mo).</string>
+    <string name="onboarding_dict_note">Une fois installé, tout fonctionne sans internet.</string>
+    <string name="onboarding_dict_cta">Commencer</string>
+    <string name="onboarding_dict_progress">Téléchargement du dictionnaire français… %1$d%%</string>
+
+    <!-- Home -->
+    <string name="home_title">VoxtText</string>
+    <string name="home_link_placeholder">Coller un lien YouTube, TikTok ou Instagram…</string>
+    <string name="home_link_cta">Analyser</string>
+    <string name="home_import_label">Importer un fichier</string>
+    <string name="home_history_title">Historique</string>
+    <string name="home_history_empty_title">Aucune transcription pour le moment</string>
+    <string name="home_history_empty_subtitle">Partagez un fichier audio ou vidéo pour commencer.</string>
+
+    <!-- Result -->
+    <string name="result_loading_extraction">Extraction de la bande-son…</string>
+    <string name="result_loading_extraction_long">Récupération de la bande-son en cours… Cela peut prendre quelques instants pour les vidéos longues.</string>
+    <string name="result_loading_transcription">Lecture automatique en cours…</string>
+    <string name="result_copy">Copier</string>
+    <string name="result_share">Partager</string>
+    <string name="result_copied">Texte copié !</string>
+
+    <!-- Errors -->
+    <string name="error_unsupported_format">Format de fichier non supporté.\nFormats acceptés : audio (MP3, WAV, M4A, OGG) et vidéo (MP4, MOV).</string>
+    <string name="error_corrupted_file">Impossible de lire ce fichier. Il est peut-être corrompu.</string>
+    <string name="error_dictionary_missing">Dictionnaire français non disponible. Téléchargez-le depuis les paramètres.</string>
+    <string name="error_link_unsupported">Ce type de lien n\'est pas encore supporté.\nFormats acceptés : YouTube, TikTok, Instagram.</string>
+    <string name="error_link_unreachable">Impossible d\'accéder à ce contenu. Vérifiez le lien ou votre connexion.</string>
+    <string name="error_network_required">Connexion internet requise pour analyser un lien. Veuillez vous connecter au Wi-Fi ou activer vos données mobiles.</string>
+    <string name="error_no_speech">Aucune parole détectée dans ce fichier.</string>
+    <string name="error_web_extraction_failed">Impossible d\'extraire le contenu de ce lien. La plateforme a peut-être modifié son fonctionnement.</string>
+    <string name="error_web_extraction_hint">Astuce : faites un enregistrement d\'écran de la vidéo, puis partagez le fichier vers VoxtText pour le transcrire.</string>
+
+    <!-- Menu -->
+    <string name="menu_about">À propos</string>
+    <string name="menu_redownload_dict">Retélécharger le dictionnaire</string>
+</resources>
