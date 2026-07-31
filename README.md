@@ -2,7 +2,7 @@
 
 **VoxText** est une application Android native écrite en **Kotlin** et **Jetpack Compose** qui transforme immédiatement n'importe quel contenu sonore (messages vocaux WhatsApp, fichiers MP3/MP4, liens YouTube, TikTok, Instagram) en un texte écrit fluide et lisible.
 
-Conçue pour un dépôt **GitHub Open Source**, l'application s'appuie sur le moteur d'IA **Groq (Whisper Large V3)** pour une précision chirurgienne de la langue française, sans nécessiter de clé API codée en dur. Chaque utilisateur peut renseigner sa propre clé gratuite Groq directement dans les paramètres.
+L'application s'appuie sur le moteur d'IA **Groq (Whisper Large V3)** pour une précision de la langue française, sans nécessiter de clé API codée en dur. Chaque utilisateur peut renseigner sa propre clé gratuite Groq directement dans les paramètres.
 
 ---
 
@@ -10,7 +10,6 @@ Conçue pour un dépôt **GitHub Open Source**, l'application s'appuie sur le mo
 
 * **⚡ Partage Direct (Share Sheet)** : Appui long sur un vocal WhatsApp ou partage d'un fichier/lien -> Sélectionner **VoxText** -> Le texte s'affiche en quelques secondes.
 * **🧠 Moteur d'IA Whisper Large V3 (Groq API)** : Transcription ultra-rapide et gratuite en français via l'API REST de Groq.
-* **🔗 Universalité des Liens Web** : Extraction automatique des bandes-son des liens YouTube, TikTok et Instagram via l'API open-source **Cobalt**.
 * **🔒 100% Respectueux de la vie privée & Open Source** : Aucune clé API n'est incluse dans le code source. Les fichiers temporaires téléchargés dans le cache sont immédiatement supprimés après transcription.
 * **💾 Historique Local (Room BDD)** : Vos transcriptions passées sont sauvegardées localement dans une base de données Room avec possibilité de copier ou partager le texte à tout moment.
 * **🎨 Design Moderne & Dynamic Theme** : Interface développée sous Jetpack Compose (Material 3) s'adaptant automatiquement au mode clair/sombre du téléphone.
@@ -98,10 +97,6 @@ L'APK compilé se trouvera dans :
 1. Ouvrez VoxText.
 2. Cliquez sur **Importer un fichier** (sélectionnez un fichier MP3, MP4, MOV, WAV, M4A, OGG).
 3. Le texte est immédiatement extrait et sauvegardé dans l'historique.
-
-### Scénario C : Lien Web (YouTube, TikTok, Instagram)
-1. Collez l'URL dans le champ de recherche de l'écran d'accueil ou partagez directement le lien depuis l'application source vers VoxText.
-2. VoxText extrait le flux sonore via l'API Cobalt et affiche le texte transcrit.
 
 ---
 
